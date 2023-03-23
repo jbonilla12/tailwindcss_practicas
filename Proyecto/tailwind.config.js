@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/estilos.css"],
+  content: ["src/estilos.css"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        danger: '#FC2947'
+      }
+    },
   },
   plugins: [],
 }
